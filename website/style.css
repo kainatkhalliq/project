@@ -1,0 +1,78 @@
+h1{
+font-family: Algerian;
+font-size: 22px;
+font-style: italic;
+text-transform: lowercase;
+text-align: left;
+color: rebeccapurple;
+
+}
+
+h2{
+font-family: Algerian;
+font-size: 22px;
+font-style: italic;
+text-transform: lowercase;
+text-align: left;
+color: rebeccapurple;
+
+}
+
+h3{
+font-family: Algerian;
+font-size: 22px;
+font-style: italic;
+text-transform: lowercase;
+text-align: left;
+color: rebeccapurple;
+
+}
+h4{
+font-family: Algerian;
+font-size: 22px;
+font-style: italic;
+text-transform: lowercase;
+text-align: left;
+color: rebeccapurple;
+
+
+}
+h5{
+font-family: Algerian;
+font-size: 22px;
+font-style: italic;
+text-transform: lowercase;
+text-align: left;
+color: rebeccapurple;
+
+
+}
+h6{
+font-family: Algerian;
+font-size: 22px;
+font-style: italic;
+text-transform: lowercase;
+text-align: left;
+color: purple;
+
+
+  
+}
+
+body{
+background: #f1f4f7;
+    padding-top: 50px;
+    color: #5f6468;
+    font-family: "Roboto", sans-serif;
+
+box-sizing: border-box;
+}
+
+p{
+    font-family: Calibri;
+    font-size: 15px;
+
+
+    text-align: justify;
+    color: rebeccapurple;
+}

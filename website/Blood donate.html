@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<!-- Custom CSS -->
+	<style type="text/css"></style>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<title>Blood Donation Page</title>
+</head>
+<body>
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Blood Bank</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="index.html" href="index.html">Home</a>
+
+        <li class="nav-item">
+          <a class="Blood donate.html" href="Blood donate.html">Find a Donor</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="contact.html" href="contact.html">Contact Us</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>	<div class="container">
+		<div class="row">
+			<div class="col-md-6 offset-md-3">
+				<div class="card">
+					<div class="card-header bg-danger text-white">
+						<h4>Blood Donation Form</h4>
+					</div>
+					<div class="card-body">
+						<form>
+							<div class="form-group">
+								<label for="name">Name</label>
+								<input type="text" class="form-control" id="name" placeholder="Enter your name">
+							</div>
+							<div class="form-group">
+								<label for="email">Email</label>
+								<input type="email" class="form-control" id="email" placeholder="Enter your email">
+							</div>
+							<div class="form-group">
+								<label for="blood-type">Blood Type</label>
+								<select class="form-control" id="blood-type">
+									<option>A+</option>
+									<option>A-</option>
+									<option>B+</option>
+									<option>B-</option>
+									<option>AB+</option>
+									<option>AB-</option>
+									<option>O+</option>
+									<option>O-</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="message">Message</label>
+								<textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+							</div>
+							<button type="submit" class="btn btn-block text-red">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
